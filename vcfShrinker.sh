@@ -3,7 +3,7 @@
 #set -o xtrace
 
 # Print this messge if the script fails for some reason
-trap 'exit 1"' ERR
+trap 'exit 1' ERR
 
 # Function that shows help message
 usage () {
